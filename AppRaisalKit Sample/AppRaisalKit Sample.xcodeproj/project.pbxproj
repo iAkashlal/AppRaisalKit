@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		76EC29002F5E83510054FE1F /* AppRaisalKit in Frameworks */ = {isa = PBXBuildFile; productRef = 76EC28FF2F5E83510054FE1F /* AppRaisalKit */; };
+		76EC295B2F5E864D0054FE1F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 76EC295A2F5E864D0054FE1F /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		76EC28CA2F5E83510054FE1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,7 @@
 		76EC28BC2F5E834F0054FE1F /* AppRaisalKit Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppRaisalKit Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76EC28C92F5E83510054FE1F /* AppRaisalKit SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppRaisalKit SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76EC28D32F5E83510054FE1F /* AppRaisalKit SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppRaisalKit SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EC295A2F5E864D0054FE1F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EC29002F5E83510054FE1F /* AppRaisalKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +86,7 @@
 				76EC28CC2F5E83510054FE1F /* AppRaisalKit SampleTests */,
 				76EC28D62F5E83510054FE1F /* AppRaisalKit SampleUITests */,
 				76EC28BD2F5E834F0054FE1F /* Products */,
+				76EC295A2F5E864D0054FE1F /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +120,7 @@
 			);
 			name = "AppRaisalKit Sample";
 			packageProductDependencies = (
+				76EC28FF2F5E83510054FE1F /* AppRaisalKit */,
 			);
 			productName = "AppRaisalKit Sample";
 			productReference = 76EC28BC2F5E834F0054FE1F /* AppRaisalKit Sample.app */;
@@ -195,6 +204,9 @@
 			);
 			mainGroup = 76EC28B32F5E834F0054FE1F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				76EC28FE2F5E83510054FE1F /* XCLocalSwiftPackageReference "../AppRaisalKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 76EC28BD2F5E834F0054FE1F /* Products */;
 			projectDirPath = "";
@@ -212,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EC295B2F5E864D0054FE1F /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +408,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RZ7W6B4ZVW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -426,6 +440,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RZ7W6B4ZVW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -570,6 +585,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		76EC28FE2F5E83510054FE1F /* XCLocalSwiftPackageReference "../AppRaisalKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../AppRaisalKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76EC28FF2F5E83510054FE1F /* AppRaisalKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76EC28FE2F5E83510054FE1F /* XCLocalSwiftPackageReference "../AppRaisalKit" */;
+			productName = AppRaisalKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 76EC28B42F5E834F0054FE1F /* Project object */;
 }

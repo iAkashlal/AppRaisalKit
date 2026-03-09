@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct AppRaisalKit_SampleApp: App {
+    @StateObject private var appRatingManager = AppRatingManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(appRatingManager)
         }
     }
 }
