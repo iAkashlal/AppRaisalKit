@@ -255,9 +255,8 @@ final class AppRatingManager: ObservableObject {
             print("[AppRating] Not eligible for review yet")
             
             // Show why not eligible
-            if let debugInfo = await kit.getDebugInfo() as? DebugInfo {
-                print("[AppRating] Stats: \(debugInfo.stats)")
-            }
+            let debugInfo = await kit.getDebugInfo()
+            print("[AppRating] Stats: \(debugInfo.stats)")
         }
     }
     
